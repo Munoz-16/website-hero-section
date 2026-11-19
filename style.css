@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +53,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: #686A60;
-    font-size: 24px;
+    font-size: 13px;
     transition: color 0.3s ease;
 }
 
@@ -66,7 +67,7 @@ body {
     border: 1px solid #B9B7AC;
     padding: 12px 20px;
     border-radius: 30px;
-    font-size: 24px;
+    font-size: 12px;
     transition: all 0.3s ease;
 }
 
@@ -110,7 +111,7 @@ body {
 }
 
 .hero-text h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
     font-size: clamp(55px, 6vw, 85px);
     line-height: 1.08;
     font-weight: 500;
@@ -128,7 +129,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 18px;
-    color: #84412f;
+    color: #44483E;
 }
 
 .hero-text p {
@@ -196,8 +197,8 @@ body {
 .product-image {
     position: relative;
     z-index: 1;
-    width: 95%;
-    height: 600px;
+    width: 85%;
+    height: 390px;
     overflow: hidden;
     border-radius: 48% 48% 8px 8px;
 }
@@ -340,3 +341,4 @@ body {
         display: none;
     }
 }
+
